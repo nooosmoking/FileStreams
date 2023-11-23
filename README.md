@@ -46,11 +46,7 @@ A = (1, 1, 0, 2, 1, 0)
 B = (3, 0, 1, 1, 0, 1)
 ```
 
-Thus, each of these vectors characterizes the text in terms of frequency of occurrence of words from our dictionary. Let's determine the similarity between vectors using the following formula:
-
-![formula](misc/images/formula.png)
-
-Thus, similarity value for these vectors is:
+Thus, each of these vectors characterizes the text in terms of frequency of occurrence of words from our dictionary. Similarity value for these vectors is:
 ```
 Numerator A. B = (1 * 3 + 1 * 0 + 0 * 1 + 2 * 1 + 1 * 0 + 0 * 1) = 5
 Denominator ||A|| * ||B|| = sqrt(1 * 1 + 1 * 1 + 0 * 0 + 2  * 2 + 1 * 1 + 0 * 0) * sqrt(3 * 3 + 0 * 0 + 1 * 1 + 1 * 1  + 0 * 0 + 1 * 1) = sqrt(7) * sqrt(12) = 2.64 * 3.46 = 9.1
